@@ -1,9 +1,10 @@
 {
-  "name": "NodeSequelize",
+  "name": "backend-express-sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,11 +14,14 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mysql2": "^1.5.3",
-    "sequelize": "^4.37.10"
+    "pg": "^8.3.0",
+    "sequelize": "^4.37.10",
+    "sucrase": "^3.15.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
+    "nodemon": "^2.0.4",
     "sequelize-cli": "^4.0.0"
   }
 }
